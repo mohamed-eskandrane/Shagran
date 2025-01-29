@@ -255,10 +255,9 @@ text-align: center;
     transition: 0.5s;
 }
 .Three_Div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
     /* margin-top: var(--TMargin); */
 }
 
@@ -294,7 +293,7 @@ text-align: center;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-width: var(--Winput);
+width: 100%;
 height: 44px;
 align-items: center;
 padding-right: 5px;
